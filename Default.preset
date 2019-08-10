@@ -66,7 +66,6 @@ SetDEPOptOut                    # SetDEPOptIn
 ### Service Tweaks ###
 # DisableUpdateMSRT             # EnableUpdateMSRT
 # DisableUpdateDriver           # EnableUpdateDriver
-EnableUpdateMSProducts          # DisableUpdateMSProducts
 # DisableUpdateAutoDownload     # EnableUpdateAutoDownload
 DisableMaintenanceWakeUp        # EnableMaintenanceWakeUp
 # DisableHomeGroups             # EnableHomeGroups
@@ -95,20 +94,20 @@ EnableNTFSLongPaths             # DisableNTFSLongPaths
 DisableActionCenter             # EnableActionCenter
 DisableLockScreen               # EnableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
-HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
-HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
-DisableLockScreenBlur           # EnableLockScreenBlur
+#HideNetworkFromLockScreen       ShowNetworkOnLockScreen
+#HideShutdownFromLockScreen      ShowShutdownOnLockScreen
+#DisableLockScreenBlur            EnableLockScreenBlur
 # DisableAeroShake              # EnableAeroShake
 DisableAccessibilityKeys        # EnableAccessibilityKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
 ShowFileOperationsDetails       # HideFileOperationsDetails
 # EnableFileDeleteConfirm       # DisableFileDeleteConfirm
 HideTaskbarSearch               # ShowTaskbarSearchIcon         # ShowTaskbarSearchBox
-HideTaskView                    # ShowTaskView
-ShowSmallTaskbarIcons           # ShowLargeTaskbarIcons
+HideTaskView                     ShowTaskView
+#ShowSmallTaskbarIcons          # ShowLargeTaskbarIcons
 SetTaskbarCombineWhenFull       # SetTaskbarCombineNever        # SetTaskbarCombineAlways
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
-ShowTrayIcons                   # HideTrayIcons
+#ShowTrayIcons                    HideTrayIcons
 DisableSearchAppInStore         # EnableSearchAppInStore
 DisableNewAppPrompt             # EnableNewAppPrompt
 # HideRecentlyAddedApps         # ShowRecentlyAddedApps
@@ -127,6 +126,7 @@ SetVisualFXPerformance          # SetVisualFXAppearance
 # DisableChangingSoundScheme    # EnableChangingSoundScheme
 # EnableVerboseStatus           # DisableVerboseStatus
 DisableF1HelpKey                # EnableF1HelpKey
+HideTrayIcons
 
 ### Explorer UI Tweaks ###
 # ShowExplorerTitleFullPath     # HideExplorerTitleFullPath
@@ -147,21 +147,21 @@ HideRecentShortcuts             # ShowRecentShortcuts
 SetExplorerThisPC               # SetExplorerQuickAccess
 HideQuickAccess                 # ShowQuickAccess
 # HideRecycleBinFromDesktop     # ShowRecycleBinOnDesktop
-ShowThisPCOnDesktop             # HideThisPCFromDesktop
+# ShowThisPCOnDesktop           # HideThisPCFromDesktop
 # ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
 # ShowNetworkOnDesktop          # HideNetworkFromDesktop
 HideDesktopFromThisPC           # ShowDesktopInThisPC
-# HideDesktopFromExplorer       # ShowDesktopInExplorer
-HideDocumentsFromThisPC         # ShowDocumentsInThisPC
-# HideDocumentsFromExplorer     # ShowDocumentsInExplorer
-HideDownloadsFromThisPC         # ShowDownloadsInThisPC
-# HideDownloadsFromExplorer     # ShowDownloadsInExplorer
+# HideDesktopFromExplorer         ShowDesktopInExplorer
+# HideDocumentsFromThisPC         ShowDocumentsInThisPC
+# HideDocumentsFromExplorer       ShowDocumentsInExplorer
+# HideDownloadsFromThisPC         ShowDownloadsInThisPC
+# HideDownloadsFromExplorer       ShowDownloadsInExplorer
 HideMusicFromThisPC             # ShowMusicInThisPC
 # HideMusicFromExplorer         # ShowMusicInExplorer
-HidePicturesFromThisPC          # ShowPicturesInThisPC
+#HidePicturesFromThisPC           ShowPicturesInThisPC
 # HidePicturesFromExplorer      # ShowPicturesInExplorer
-HideVideosFromThisPC            # ShowVideosInThisPC
+#HideVideosFromThisPC             ShowVideosInThisPC
 # HideVideosFromExplorer        # ShowVideosInExplorer
 Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 # Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
@@ -173,12 +173,12 @@ DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
-DisableOneDrive                 # EnableOneDrive
+#DisableOneDrive                  EnableOneDrive
 UninstallOneDrive               # InstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
-# UninstallWindowsStore         # InstallWindowsStore
-DisableXboxFeatures             # EnableXboxFeatures
+#UninstallWindowsStore         # InstallWindowsStore
+#DisableXboxFeatures              EnableXboxFeatures
 # DisableFullscreenOptims       # EnableFullscreenOptims
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
